@@ -1,0 +1,97 @@
+#section1 .bg-img{
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background: url('../img/1.jpg');
+    background-size: cover;
+    
+}
+
+ #section1 .page1 {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.55);
+    
+}
+
+.info-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;}
+
+.botao1 {
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    border-radius: 30px;
+    padding: 12px 12px 12px;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 200px;
+    background-color: rgb(14, 139, 22);
+    transition: 0.50s;
+}
+
+.botao1:hover {
+    transition: 0.50s;
+    cursor: pointer;
+    background-color: rgb(14, 120, 22);
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.15);
+}
+
+
+#section2 .page2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+
+#section2 .servicos {
+    border-bottom: solid;
+    background-color:rgb(15, 15, 15);
+}
+
+.info-page2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.servico-1,.servico-2,.servico-3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items:center;
+    justify-content:baseline;
+    width: 400px;
+    height: 150px;
+    color:white;
+    font-size: 22px;
+    transition: 0.50s;
+}
+
+
+.servico-1:hover,.servico-2:hover,.servico-3:hover {
+    transition: 0.50s;
+    font-size: 170%;
+    color:rgb(89, 122, 89);
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+
+
+#section2 .page3 {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    border-bottom: solid;
+    background-color: lightcyan;
+}

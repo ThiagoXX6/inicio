@@ -1,0 +1,54 @@
+.header {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: rgba(0, 0, 0, 0.616);
+    box-shadow: 0px 10px 10px  rgba(0, 0, 0, 0.15);
+
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right:0;
+    z-index: 100;
+
+   
+  }
+
+.logo {
+    margin-left: 60px;
+    top:5px;
+    height: 70px;
+    position: relative;
+ 
+}
+
+.left-section {
+    display: flex;
+}        
+
+.right-section {
+
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin-right: 60px;
+    position: relative;
+}
+
+.home-buttom, .serv-buttom, .sobre-buttom, .contato-buttom {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: white;;
+}
+
+.home-buttom:hover, .serv-buttom:hover, .sobre-buttom:hover, .contato-buttom:hover {
+    transition-duration: 1s;
+    color: green;
+}
